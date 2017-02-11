@@ -1,5 +1,5 @@
 # calendar
-Задание2 на курсах "Java Script Advanced" в школе ITEA.<br>
+Задание 2 на курсе "Java Script Advanced" в школе ITEA.<br>
 <br>
 Реализовать календарь, подобный такому: http://www.printablecalendar.ca/images/beaucal-miniMonths.png.<br>
 1. Ячейки будних дней должны быть доступны для редактирования (до 50 символов);<br>
