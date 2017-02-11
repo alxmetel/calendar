@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar</title>
+	<link href="calendar.css" rel="stylesheet">
+</head>
+<body>
+	<div class="tableTitle">February 2017</div>
+	<table>
+		<tr>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+			<th>Sat</th>
+			<th>Sun</th>
+		</tr>
+		<tr class="dates">
+			<td></td>
+			<td></td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+		</tr>
+		<tr class="text">
+			<td></td>
+			<td></td>
+			<td class="days weekDay"></td>
+			<td class="days weekDay">Meet Olya</td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekEnd">Holiday Party</td>
+			<td class="days weekEnd"></td>
+		</tr>
+		<tr class="dates">
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td>10</td>
+			<td>11</td>
+			<td>12</td>
+		</tr>
+		<tr class="text">
+			<td class="days weekDay">Doctor</td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekDay">Clean Apartment</td>
+			<td class="days weekDay"></td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekEnd">Meeting</td>
+			<td class="days weekEnd"></td>
+		</tr>
+		<tr class="dates">
+			<td>13</td>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+			<td>19</td>
+		</tr>
+		<tr class="text">
+			<td class="days weekDay"></td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekDay"></td>
+			<td class="days weekDay">Laundry</td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekEnd"></td>
+			<td class="days weekEnd">Grocery Shopping</td>
+		</tr>
+		<tr class="dates">
+			<td>20</td>
+			<td>21</td>
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>
+		</tr>
+		<tr class="text">
+			<td class="days weekDay">Party</td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekDay">Football</td>
+			<td class="days weekDay"></td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td class="days weekEnd"></td>
+			<td class="days weekEnd">Gym</td>
+		</tr>
+		<tr class="dates">
+			<td>27</td>
+			<td>28</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="text">
+			<td class="days weekDay"></td>
+			<td class="days weekDay">JS Advanced Course</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<div id="detailsWindow">
+		<div class="heading">Details</div>
+			<section class="textField">
+				<span id="calendarData"></span>
+			</section>
+			<section class="editField">
+				<input type="text" id="editedEntry" maxlength="50" size="50" placeholder="Enter new record"></input>
+			</section>
+		<input type="button" id="butAddEdit" value="Add/Edit">
+		<input type="button" id="butDelete" value="Delete">
+		<input type="button" id="butReset" value="Cancel">
+	</div>
+<script src="calendar.js"></script>
+</body>
+</html>
